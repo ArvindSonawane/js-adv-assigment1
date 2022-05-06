@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    text-align: center;
+    background: #4b00ff;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.quotesOutput {
+    text-align: center;
+    background: #dde1ff;
+    padding: 20px;
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+button {
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #4b00ff;
+    color: #fff;
+    border: transparent;
+    margin: auto;
+    cursor: pointer;
+}
+p#generatedQuote {
+    font-size: 16px;
+    font-weight: 800;
+}
